@@ -7,11 +7,51 @@
     <link href="css/alap.css" rel="stylesheet">
 </head>
 <body>
-    <header>Üdvözöllek a honlapomon!</header>
-    <table>
-        <tr>
-          <td>Word 1</td>  <td>Word 2</td>  <td>Word 3</td>  </tr>
-      </table>
+    <a id="oldalteto"></a>
+    <header>
+        
+        <nav id="fomenu">
+            <h2 class="rejtett">Üdvözöllek a honlapomon!</h2>
+            <b>Kezdőlap</b>
+            <a href="magamrol.html" title="Ugrás a magamról oldalra">Magamról</a>
+            <a href="sportok.html" title="Ugrás a sportok oldalra">Sportok</a>
+            <a href="bankjegyek.html" title="Ugrás a bankjegyek oldalra">Bankjegyek</a>
+        </nav>
+    </header>
+
+    <main>
+       <form action="mailto:el1qui@inf.elte.hu" method="post" enctype="text/plain">
+            <div>
+                <fieldset>
+                    <h2>Megjegyzés küldése a weblap készítőjének</h2>
+                    <label for="Email-cím"><strong>Email-cím</strong></label><br>
+                    <input class="w-100" type="text" name="bejelentoneve" id="Nevem" size="60" maxlength="50"><br>
+                    <label for="Megjegyzo uzenet"><strong>Üzenet</strong></label><br>
+                    <textarea class="w-100" maxlength="500" cols="60" rows="10" name="megjegyzoUzenet"
+                        id="megjegyzoUzenet" placeholder="Kérlek ide írd meg az észrevételeid."></textarea>
+
+                    <br>
+                    <label for="hasznal">Beleegyezem, hogy használhassák az email címem.</label>
+                    <input type="checkbox" name="adatkezeles" id="hasznal"
+                        value="Beleegyezem, hogy használhassák az email címem.">
+                    <br>
+
+                    
+                    <h2>Tetszett az oldal?</h2>
+                    <p>
+                        <input type="radio" name="igen" id="radio1" value="Igen">
+                        <label for="radio1">Igen</label>
+                        <input type="radio" name="nem" id="radio2" value="Nem">
+                        <label for="radio2">Nem</label>
+
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Elküld" class="btn btn-primary">
+                </fieldset>
+            </div>
+        </form>   
+    </main>
       
 </body>
 </html>

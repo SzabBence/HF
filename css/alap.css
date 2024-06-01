@@ -1,0 +1,18 @@
+#corvinus, #elteIK{
+    float: center;
+    margin:10px;
+    width: 50%;
+}
+
+
+.container {
+    display: flex;   
+}
+  
+  .container img {
+    margin-right: 10px; 
+    height : 110%;
+    width: 110%;
+    
+  }
+ 
