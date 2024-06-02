@@ -1,5 +1,4 @@
 #corvinus{
-    float: center;
     margin:10px;
     width: 50%;
 }
@@ -30,7 +29,7 @@
     width: 200px
   }
 .header-styles{
-    background-color: azure;
+    background-color: beige;
     padding: 20px;
     color: #333;
     text-align:center;
@@ -76,7 +75,7 @@
   }
 
   body {
-    background-color: white;
+    background-color: gainsboro;
     width: 80%;
     max-width: 1000px;
     min-width: 500px;
@@ -112,7 +111,7 @@
   }
 
   .udv{
-    font: optional;
+    font-family: serif;
   }
 
   .letoltott-video-container{
@@ -146,3 +145,24 @@
     text-align: justify;
 }
 
+/* General link styles */
+a {
+    color: #0066cc; /* Blue color */
+    text-decoration: underline; /* Underline for default state */
+}
+
+/* Hover and focus states */
+a:hover,
+a:focus {
+    color: #004999; /* Darker blue for hover/focus */
+    text-decoration: none; /* Remove underline on hover/focus */
+    background-color: #e6f2ff; /* Light background color on hover/focus */
+}
+
+/* Visited state */
+a:visited {
+    color: #663399; /* Different color for visited links */
+}
+
+
+    
