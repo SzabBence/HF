@@ -22,11 +22,19 @@
     
   }
  
+  .container-magamrol{
+    display: flex;
+  }
+  .container-magamrol img{
+    height: 150px;
+    width: 200px
+  }
 .header-styles{
     background-color: azure;
     padding: 20px;
     color: #333;
     text-align:center;
+    font-size: large;
 }
 
 .welcome{
@@ -126,3 +134,15 @@
 .skip-link:focus {
     top: 0;
 }
+
+.left-and-justify{
+    text-align: left;
+    text-align: justify;
+    font-size: larger;
+}
+
+.left-and-justify-small{
+    text-align: left;
+    text-align: justify;
+}
+
