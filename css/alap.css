@@ -1,4 +1,4 @@
-#corvinus, #elteIK{
+#corvinus{
     float: center;
     margin:10px;
     width: 50%;
@@ -66,9 +66,6 @@
     font-weight: bold; /* Make caption text bold (optional) */
     
   }
-  .alma{
-    transform: rotate(-90deg);
-  }
 
   body {
     background-color: white;
@@ -100,3 +97,20 @@
     position: absolute;
     left: -1000px;
   }
+
+  .iframe-positioning{
+    display: block;
+    margin: auto;
+  }
+
+  .udv{
+    font: optional;
+  }
+
+  .letoltott-video-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+  
