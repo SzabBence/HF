@@ -4,12 +4,13 @@
     width: 50%;
 }
 
-#imi{
-    float: center;
+#imi, #bjj{
+    float: left;
     margin: 20px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
+
 .container {
     display: flex;   
 }
@@ -32,21 +33,10 @@
     font-style: italic;
 }
 
-.kiskutya {
-    background-image: url("../kepek/egymilliardos.jpg");
-    background-repeat: no-repeat;
-    transform: rotate(90deg);
-    opacity: 1;
-  }
-  
-.semmi{
-    background-image: url("../kepek/50pengo.jpg");
-    
-}
 
 .colored{
-    background-color: white;
-    background-image: url("../kepek/50pengo.jpg");
+    background-color: honeydew;
+    
 }
 
 .styled-table {
@@ -78,4 +68,35 @@
   }
   .alma{
     transform: rotate(-90deg);
+  }
+
+  body {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 500px;
+    padding: 0 20px 20px 20px;
+    margin: 20px auto;
+    border: 0px dotted rgb(73, 73, 73);
+    box-shadow: 0 0 30px black;
+  }
+  .thumbnail {
+    border: 2px solid #ccc;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .thumbnail img {
+    width: auto;
+    height: 180px;
+  }
+
+  .bankjegy{
+    background-image: url("../kepek/10forintos.jpg");
+  }
+
+  .rejtett {
+    position: absolute;
+    left: -1000px;
   }
