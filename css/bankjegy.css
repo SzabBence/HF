@@ -1,4 +1,14 @@
-#bankjegy-szoveg {
-    background-image: url("../kepek/egymilliard_milpengo-1.jpg");
+.bankjegy {
+    background-image: url("../kepek/egymilliardos.jpg");
+    background-repeat: no-repeat;
+    opacity: 1;
   }
   
+.semmi{
+    background-image: url("../kepek/50pengo.jpg");
+    
+}
+
+.colored{
+    background-color: white;
+}

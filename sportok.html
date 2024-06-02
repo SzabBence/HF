@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kezdőlap</title>
+    <title>Sportok</title>
     <link href="css/alap.css" rel="stylesheet">
 </head>
 <body>
     <a id="oldalteto"></a>
-    <header>
+    <header class="header-styles">
         
         <nav id="fomenu">
             <h2 class="rejtett">Küzdősportok</h2> <!--formázni ezt a részt -->
@@ -19,36 +19,52 @@
         <h1>Néhány szó magamról</h1>
         <section>
             <article>
-                <div class="container">
-                    <img id="km" img src="kepek/km-knife.jpg" alt="KMknife" title="Krav Maga késelés">
+                <div class="container clearfix">
+                    <img id="km" img src="kepek/km-knife.jpg" alt="KMknife" title="Krav Maga késelés" class="float-start">
                         <p>Elsőként általános iskolában találkoztam a harcművészettel. Ez akkor Shaolin Kung-Fut , 
                             illetve Wing Chun Kung-Fut jelentett. Ezt követően egy rövid ideig Krav Magáztam, 
                             majd annyiban maradt gimnáziumi éveim elején, egészen az egyetem végéig.
                             Azután újra megtaláltam ezt az önvédelmi rendszert és 2022 nyara óta nagy lendülettel járok edzésekre. 
-                            A Krav Maga a szintjei P1-P5, G1-G5, E1-E10 között alakulnak, 
+                            A Krav Maga a szintjei P1-P5, G1-G5, E1-E5 között alakulnak, 
                             én pedig P3-as szintre vizsgáztam tavaly év végén, tervek szerint pedig nyáron megyek a P4-es vizsgára. 
                             A jövőben tervezek visszamenni Brazil Jiu-Jitsu edzésekre (Gi vagy NoGi),
                             illetve kiprobálnék valamilyen tradicionális harcművészetet is, mint pl. újra valamilyen Kung-Fut.
                         </p>
                 </div>
-                <table id="kmLevels"><thead>
-                    <tr>
-                    <th colspan="2">Krav Maga szintek<br></th>
-                    </tr></thead>
-                <tbody>
-                    <tr>
-                    <td>Practicioner (P)</td>
-                    <td>1-5</td>
-                    </tr>
-                    <tr>
-                    <td>Graduate (G)</td>
-                    <td>1-5</td>
-                    </tr>
-                    <tr>
-                    <td>Expert (E)</td>
-                    <td>1-5</td>
-                    </tr>
-                </tbody>
+                <table id="kmLevels" class="styled-table">
+                    <caption>
+                        <strong>Krav maga szintek és időtartamai a civil rendszerben</strong>
+                        <details>
+                            <summary>Időtartami megkötések</summary>
+                            <p>A p szintek között nincs időtartami megkötés, G szinttől minden vizsga után legalább 7 hónapot várni kell. E szint után
+                                minden vizsgát követően eggyel több évet kell kivárni.
+                            </p>
+                        </details>
+                    </caption>
+                    <thead>
+                        <tr>
+                        <th colspan="1" scope="col">Szint kategóriák<br></th>
+                        <th colspan="1" scope="col">Lehetséges alszintek<br></th>
+                        <th colspan="1" scope="col">Becsült idő<br></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">Practicioner (P)</th>
+                        <td>1-5</td>
+                        <td>0-3 év</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Graduate (G)</th>
+                        <td>1-5</td>
+                        <td>3-7 év</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Expert (E)</th>
+                        <td>1-5</td>
+                        <td>7- év</td>
+                        </tr>
+                    </tbody>
                 </table>
                 <br>
                 A jövőben tervezek visszamenni Brazil Jiu-Jitsu edzésekre (Gi vagy NoGi),

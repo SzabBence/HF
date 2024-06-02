@@ -4,7 +4,12 @@
     width: 50%;
 }
 
-
+#imi{
+    float: center;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
 .container {
     display: flex;   
 }
@@ -16,3 +21,61 @@
     
   }
  
+.header-styles{
+    background-color: azure;
+    padding: 20px;
+    color: #333;
+    text-align:center;
+}
+
+.welcome{
+    font-style: italic;
+}
+
+.kiskutya {
+    background-image: url("../kepek/egymilliardos.jpg");
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+  
+.semmi{
+    background-image: url("../kepek/50pengo.jpg");
+    
+}
+
+.colored{
+    background-color: white;
+    background-image: url("../kepek/50pengo.jpg");
+}
+
+.styled-table {
+    border-collapse: collapse; /* Ensures table borders collapse into single lines */
+    width: 100%; /* Makes the table fill the available width */
+    margin-bottom: 1em; /* Adds some space below the table */
+  }
+  
+  .styled-table thead {
+    background-color: #e0ffff; /* Light blue background for header */
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 0.5em 1em; /* Padding for cells */
+    border: 1px solid #ddd; /* Table cell borders */
+    text-align: center; /* Align content to the left */
+  }
+  
+  .styled-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows (optional) */
+  }
+  
+  .styled-table caption {
+    margin-top: 1em; /* Space above the caption */
+    text-align: center; /* Center align the caption text */
+    font-weight: bold; /* Make caption text bold (optional) */
+    
+  }
+  .alma{
+    transform: rotate(-90deg);
+  }

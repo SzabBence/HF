@@ -8,15 +8,11 @@
 </head>
 <body>
     <a id="oldalteto"></a>
-    <header>
-        
-        <nav id="fomenu">
-            <h2 class="rejtett">Üdvözöllek a honlapomon!</h2>
-            <b>Kezdőlap</b>
-            <a href="magamrol.html" title="Ugrás a magamról oldalra">Magamról</a>
-            <a href="sportok.html" title="Ugrás a sportok oldalra">Sportok</a>
-            <a href="bankjegyek.html" title="Ugrás a bankjegyek oldalra">Bankjegyek</a>
-        </nav>
+    <header class="header-styles">
+        <h2 class="welcome">Üdvözöllek a honlapomon!</h2>
+        <a href="magamrol.html" title="Ugrás a magamról oldalra">Magamról</a>
+        <a href="sportok.html" title="Ugrás a sportok oldalra">Sportok</a>
+        <a href="bankjegyek.html" title="Ugrás a bankjegyek oldalra">Bankjegyek</a>
     </header>
 
     <main>
@@ -24,11 +20,11 @@
             <div>
                 <fieldset>
                     <h2>Megjegyzés küldése a weblap készítőjének</h2>
-                    <label for="Email-cím"><strong>Email-cím</strong></label><br>
+                    <label for="Név"><strong>Név</strong></label><br>
                     <input class="w-100" type="text" name="bejelentoneve" id="Nevem" size="60" maxlength="50"><br>
                     <label for="Megjegyzo uzenet"><strong>Üzenet</strong></label><br>
-                    <textarea class="w-100" maxlength="500" cols="60" rows="10" name="megjegyzoUzenet"
-                        id="megjegyzoUzenet" placeholder="Kérlek ide írd meg az észrevételeid."></textarea>
+                    <textarea class="w-100" maxlength="300" cols="60" rows="10" name="megjegyzoUzenet"
+                        id="megjegyzoUzenet" placeholder="Kérlek ide írd meg az észrevételeid maximum 300 karakterben."></textarea>
 
                     <br>
                     <label for="hasznal">Beleegyezem, hogy használhassák az email címem.</label>
@@ -39,9 +35,9 @@
                     
                     <h2>Tetszett az oldal?</h2>
                     <p>
-                        <input type="radio" name="igen" id="radio1" value="Igen">
+                        <input type="radio" name="tetszike" id="radio1" value="Igen">
                         <label for="radio1">Igen</label>
-                        <input type="radio" name="nem" id="radio2" value="Nem">
+                        <input type="radio" name="tetszike" id="radio2" value="Nem">
                         <label for="radio2">Nem</label>
 
                     </p>
